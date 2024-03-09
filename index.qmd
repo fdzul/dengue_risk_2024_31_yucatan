@@ -2,7 +2,6 @@
 title: "Programa de Prevención y Control del Dengue | 2024"
 format: 
   dashboard:
-    logo: https://www.gob.mx/cms/uploads/action_program/main_image/26942/post_post_portadavectores.gif
     nav-buttons: [twitter, github, facebook]
 theme: custom.scss
 ---
@@ -861,7 +860,7 @@ flexdashboard::gauge(round((sum(y_hot$n_cases)/sum(y$n_cases))*100, digits = 1),
 
 :::
 
-# **Hotspots del vector del Dengue**
+# [**Hotspots del vector del Dengue**]{style="font-size:8pt"}
 
 ::: panel-tabset
 
@@ -957,7 +956,7 @@ deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_31_yucatan ,
 
 
 
-# **Escenarios Epidemiológicos**
+# [**Escenarios Epidemiológicos**]{style="font-size:8pt"}
 
 ::: panel-tabset
 
